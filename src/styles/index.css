@@ -134,6 +134,7 @@ div.input-box {
   div.input-box.age {
     width: 25%; }
   div.input-box h4 {
+    text-transform: capitalize;
     font-weight: 500;
     font-size: 14px;
     padding-bottom: 4px; }

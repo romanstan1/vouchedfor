@@ -2,7 +2,7 @@ import React from 'react';
 
 export const CurrencyInput = ({updateValue, value, label}) =>
 <div className='input-box currency'>
-  <h4>{label}</h4>
+  <h4>{label}:</h4>
   <input
     value={value}
     onChange={updateValue}
@@ -13,7 +13,7 @@ export const CurrencyInput = ({updateValue, value, label}) =>
 
 export const AgeInput = ({updateValue, value, label}) =>
   <div className='input-box age'>
-    <h4>{label}</h4>
+    <h4>{label.replace(/_/g, " ")}:</h4>
     <input
       type="number"
       value={value}
